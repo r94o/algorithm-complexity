@@ -6,4 +6,9 @@ describe(time, () => {
     time(mockFunction);
     expect(mockFunction).toHaveBeenCalledTimes(1);
   })
+  it("calls the function with the parameter given", () => {
+    const mockFunction = jest.fn();
+    time(mockFunction, "Test");
+    expect(mockFunction).toHaveBeenCalledWith("Test");
+  })
 })
