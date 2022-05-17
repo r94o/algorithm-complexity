@@ -11,4 +11,10 @@ describe(time, () => {
     time(mockFunction, "Test");
     expect(mockFunction).toHaveBeenCalledWith("Test");
   })
+  it("returns the time taken for the function to finish", () => {
+    jest.useFakeTimers();
+    const mockFunction = jest.fn(() => jest.advanceTimersByTime(2.401));
+    expect(time(mockFunction)).toBe(2.401)
+    jest.useRealTimers();
+  })
 })

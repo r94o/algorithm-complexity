@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652811685185" clover="3.2.0">
-  <project timestamp="1652811685186" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="4" coveredelements="4" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
+<coverage generated="1652813227940" clover="3.2.0">
+  <project timestamp="1652813227940" name="All files">
+    <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="6" coveredelements="6" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
     <file name="time.js" path="/Users/robertoman/Documents/Projects/algorithm-complexity/time/time.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="2" count="2" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
