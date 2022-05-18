@@ -21,5 +21,8 @@
   "devDependencies": {
     "cypress": "^9.6.1",
     "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "mongoose": "^6.3.3"
   }
 }

@@ -1,9 +1,13 @@
 const mongoose = require("mongoose");
 
-const FunctionSchema = new mongoose.Schema({
-  timeArray: [number],
-  timestamps: true
-});
+const FunctionSchema = new mongoose.Schema(
+    { 
+      functionCode: String,
+      timeTakenArray: [Number]
+      
+    },
+    { timestamps: true }
+);
 
 const Function = mongoose.model("Function", FunctionSchema);
 
