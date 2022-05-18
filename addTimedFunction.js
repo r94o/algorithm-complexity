@@ -27,7 +27,7 @@ const run = (length, endLength, interval) => {
 
 const timeTakenArray = run(500, 7500, 500)
 
-mongoose.connect('mongodb+srv://algoDB:algoDBPW@cluster0.mgcxq.mongodb.net/algorithms', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
