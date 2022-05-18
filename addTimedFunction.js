@@ -29,7 +29,6 @@ const run = (length, endLength, interval) => {
 const timeTakenArray = run(500, 7500, 500)
 
 
-
 mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
