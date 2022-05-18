@@ -1,5 +1,6 @@
 const Function = require("./server/models/Function")
 const mongoose = require('mongoose');
+require("dotenv").config();
 
 
 const createArray = (length) => {
@@ -27,7 +28,9 @@ const run = (length, endLength, interval) => {
 
 const timeTakenArray = run(500, 7500, 500)
 
-mongoose.connect('', {
+
+
+mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
